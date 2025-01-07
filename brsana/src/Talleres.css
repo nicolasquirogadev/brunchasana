@@ -1,0 +1,61 @@
+.ta-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--green-light);
+    border-radius: 40px;
+    width: 400px;
+    height: 640px;
+    box-sizing: border-box;
+    padding: 2rem;
+    justify-content: space-between;
+
+}
+
+.card-img-container>img {
+    width: 100%;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.card-title {
+    font-size: 2.2rem;
+    margin-top: .3rem;
+}
+
+.card-btn {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 8rem;
+    border: 2px solid transparent;
+    background-color: var(--green-dark);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.card-btn:hover {
+    border: 2px solid var(--green-dark);
+    background-color: var(--blue-active);
+    cursor: pointer;
+}
+
+
+.swiper-slide {
+    background-color: transparent;
+    height: fit-content;
+}
+
+.card-list .ta-card {
+    user-select: none;
+    transition: 0.3 ease;
+    text-decoration: none;
+}
+
+.card-list {
+    padding: 0;
+}
+
