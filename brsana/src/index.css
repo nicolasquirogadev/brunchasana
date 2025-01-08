@@ -4,6 +4,7 @@
   font-weight: 400;
 
   --green-dark: #a4cb6a;
+  --green-nav: #395214;
   --green-light: #dceac6;
   --blue-dark: #212245;
   --blue-active: #35366d;
@@ -24,11 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html {
+body {
   background-color: var(--green-dark);
   margin: 0;
   padding: 0;
-  align-items: center;
+  align-items: center; 
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -36,24 +40,30 @@ a {
   text-decoration: none;
 }
 
+
 li {
   list-style: none;
 }
 
 section {
   width: 90dvw;
-  height: 100dvh;
   margin: 2rem auto;
 }
 
 #home {
   height: 100dvh;
+  width: 100dvw;
   display: flex;
   flex-direction: row-reverse; 
-  margin: 0 auto;
+  margin: 0 0;
+  background-image: url(.\assets\hero3.jpeg);
+  background-position: center;
+  background-attachment: local;
+  background-size: cover;
 }
 .hero-left {
   width: 45%;
+  margin: 0 14rem;
 }
 .img-container {
   width: 55%;
@@ -62,9 +72,10 @@ section {
   
 }
 .img-container>img {
+  display: none;
   width: auto;
   height: 98dvh;
-  
+  border-radius: 40px;
 }
 .logo-container {
   height: fit-content;
@@ -82,20 +93,17 @@ nav {
   transform: translateY(-80px);
 }
 .nav-link {
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 600;
   color: var(--blue-dark);
   transition: .4s ease;
+  -webkit-text-stroke: 1.7px var(--blue-active);
 }
 .nav-link:hover {
-  color: var(--blue-active);
+  color: var(--green-dark);
   font-size: 7.4rem;
 }
 
-#equipo {
-  width: 90dvw;
-  align-content: center;
-}
 
 .section-title {
   font-size: 9rem;
@@ -105,8 +113,9 @@ nav {
 .equi-box {
   display: flex;
   flex-direction: row;
-  padding: 2rem;
+  justify-content: space-between;
   gap: 5rem;
+  margin: 1rem 5rem;
 }
 .equi-container{
   align-content: center;
@@ -135,7 +144,7 @@ nav {
     background-color: var(--green-light);
     border-radius: 40px;
     width: 75dvw;
-    height: 620px;
+    height: auto;
     box-sizing: border-box;
     padding: 2rem;
     justify-content: space-between;
@@ -145,6 +154,14 @@ nav {
       margin: 3.5rem 7rem;
       text-align: center;
     }
+}
+
+#faq {
+  height: auto;
+}
+
+#contactanos {
+  height: auto;
 }
 
 footer {
@@ -160,9 +177,14 @@ footer {
   flex-direction: column;
   align-items: center;
   transition: all .7s ease;
+  color: var(--blue-dark);
   i{
     font-size: 130%
   }
+}
+
+.footer-item:visited {
+  color: var(--blue-dark);
 }
 
 .footer-item:hover{

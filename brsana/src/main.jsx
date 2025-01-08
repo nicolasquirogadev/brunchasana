@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import TalleresSlider from './TalleresSlider'
+import Accordion from './Accordion'
 
 
 createRoot(document.getElementById('root')).render(
@@ -49,6 +50,8 @@ createRoot(document.getElementById('root')).render(
     <section id="faq">
     <h1 className="section-title">preguntas frecuentes</h1>
     
+    <Accordion />
+
     </section>
 
     <section id="politica-de-cancelacion">
@@ -66,18 +69,22 @@ createRoot(document.getElementById('root')).render(
     </section>
 
     <footer>
-      <a className="footer-item">
+      <a className="footer-item" href="https://www.instagram.com/brunchasana/" target="_blank">
       <i className="fa-brands fa-instagram"></i>
       @brunchasana
       </a>
-      <a className="footer-item">
-      <i className="fa-regular fa-envelope"></i>
+      <a className="footer-item" href="https://www.tiktok.com/@brunchasana" target="_blank">
+      <i className="fa-brands fa-tiktok"></i>
+      @brunchasana
+      </a>
+      <a className="footer-item" href="mailto:brunchasana@gmail.com" target="_blank">
+      <i className="fa-regular fa-envelope"> </i>
       brunchasana@gmail.com
       </a>
-      <div className="footer-item">
+      <a className="footer-item" href="tel:+34-607-668-341" alt="Call +34-607-668-341">
       <i className="fa-solid fa-phone"></i>
-      +34 607 668 341
-      </div>
+      +34-607-668-341
+      </a>
     </footer>
 
   </StrictMode>,

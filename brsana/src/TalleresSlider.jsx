@@ -9,17 +9,14 @@ function TalleresSlider() {
 
         pagination: {
             el: '.swiper-pagination',
-            clickable: true
+            clickable: true,
           },
       
-        // Navigation arrows
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
         
-        
-      
       });
 
     return (
@@ -31,7 +28,7 @@ function TalleresSlider() {
           
           <li className="swiper-slide">
             <TallerCard 
-            title="YOGA Y ACUARELA " 
+            title="YOGA Y ACUARELA" 
             img1src={"./src/assets/yoga.jpeg"}
             img2src={"./src/assets/yoga-arte.jpeg"}
             img3src={"./src/assets/brunch.jpeg"}
@@ -40,16 +37,25 @@ function TalleresSlider() {
 
           <li className="swiper-slide">
             <TallerCard
-            title="YOGA Y CERAMICA " 
+            title="YOGA Y CERAMICA" 
             img1src={"./src/assets/yoga2.jpeg"}
             img2src={"./src/assets/ceramica.jpeg"}
             img3src={"./src/assets/brunch.jpeg"}
             ptext="En este taller disfrutaremos de una clase de Yin yoga muy restaurativa para devolverle al cuerpo la flexibilidad perdida con el estrés laboral luego disfrutaremos un brunch delicioso y saludable para prepararnos los sentidos y expresarnos en la arcilla, llevandonos la pieza que realicemos!" 
             schedule="Día y horario a definir" /></li>
+
+          <li className="swiper-slide">
+            <TallerCard
+            title="YOGA Y FOTOGRAFIA" 
+            img1src={"./src/assets/yoga2.jpeg"}
+            img2src={"./src/assets/yoga-y-foto.jpeg"}
+            img3src={"./src/assets/brunch.jpeg"}
+            ptext="En este taller unimos nuestras pasiones! el yoga y la fotografía haremos un clase de yoga con plena atención en la alineación de cada asana y en sus beneficios físicos y mentales, pasaremos al  brunch apetitoso y con degustación de vino para así tomar nuestras cámaras y  captar la paz encontrada en nuestra asana preferida. Un plan ideal para realizar bien acompañado." 
+            schedule="Día y horario a definir" /></li>
             
           <li className="swiper-slide">
             <TallerCard 
-            title="YOGA Y AROMATERAPIA " 
+            title="YOGA Y AROMATERAPIA" 
             img1src={"./src/assets/yoga2.jpeg"}
             img2src={"./src/assets/aromaterapia.jpeg"}
             img3src={"./src/assets/brunch.jpeg"}
@@ -58,7 +64,7 @@ function TalleresSlider() {
             
           <li className="swiper-slide">
             <TallerCard 
-            title="YOGA Y ZENTANGLE " 
+            title="YOGA Y ZENTANGLE" 
             img1src={"./src/assets/yoga2.jpeg"}
             img2src={"./src/assets/zentangle.jpeg"}
             img3src={"./src/assets/brunch.jpeg"}
