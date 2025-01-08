@@ -46,6 +46,21 @@ createRoot(document.getElementById('root')).render(
 
     </section>
 
+    <section id="faq">
+    <h1 className="section-title">preguntas frecuentes</h1>
+    
+    </section>
+
+    <section id="politica-de-cancelacion">
+    <h1 className="section-title">politica de cancelación</h1>
+      <div className="card">
+        <p>Las cancelaciones recibidas con menos de 7 días previo al evento <br></br> <strong>no serán reembolsadas.</strong> Podrá transferir la plaza a otra persona enviando previamente el formulario de reserva completo por quien acceda a la plaza cedida.</p>
+        <p>
+        En el caso que quieras acudir en <strong>otra fecha</strong>, se podrá modificar la reserva hasta 7  días previo a la fecha del evento. <br></br>
+         <strong>Si el participante no acude al evento, se perderá el derecho a cualquier reembolso.</strong></p>
+      </div>
+    </section>
+
     <section id="contactanos">
     <h1 className="section-title">contactanos</h1>
     </section>
@@ -61,7 +76,7 @@ createRoot(document.getElementById('root')).render(
       </a>
       <div className="footer-item">
       <i className="fa-solid fa-phone"></i>
-      011-4449-5049
+      +34 607 668 341
       </div>
     </footer>
 

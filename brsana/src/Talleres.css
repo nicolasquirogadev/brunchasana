@@ -1,19 +1,50 @@
 .ta-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: var(--green-light);
     border-radius: 40px;
-    width: 400px;
+    width: 75dvw;
     height: 640px;
     box-sizing: border-box;
+    margin: 1rem auto;
     padding: 2rem;
     justify-content: space-between;
-
 }
 
+
+.ta-card-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 1rem;
+    margin-left: 13rem; 
+    gap: 2rem;
+}
+
+.card-img-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 7rem;
+    margin: 1rem 1rem;
+}
 .card-img-container>img {
-    width: 100%;
+    width: 400px;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+#ta-img2 {
+    transform: translateX(6rem);
+    position: absolute ;
+    left: 16rem;
+    top: 13rem;
+    z-index: 2;
+}
+#ta-img1 {
+    z-index: 1;
 }
 
 .card-text {
@@ -23,12 +54,13 @@
 }
 
 .card-title {
-    font-size: 2.2rem;
-    margin-top: .3rem;
+    font-size: 4.2rem;
+    margin: .4rem auto;
+    text-align: center;
 }
 
 .card-btn {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     height: 3rem;
     width: 8rem;
     border: 2px solid transparent;
@@ -47,6 +79,16 @@
 .swiper-slide {
     background-color: transparent;
     height: fit-content;
+}
+
+.swiper-pagination-bullet {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.swiper-pagination {
+    margin-top: 1rem;
+    position: relative;
 }
 
 .card-list .ta-card {

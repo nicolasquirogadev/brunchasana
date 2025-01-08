@@ -131,7 +131,21 @@ nav {
   transform: translateX(10px);
 }
 
-
+.card {
+    background-color: var(--green-light);
+    border-radius: 40px;
+    width: 75dvw;
+    height: 620px;
+    box-sizing: border-box;
+    padding: 2rem;
+    justify-content: space-between;
+    margin: 3rem auto;
+    p{
+      font-size: 2.1rem;
+      margin: 3.5rem 7rem;
+      text-align: center;
+    }
+}
 
 footer {
   display: flex;
