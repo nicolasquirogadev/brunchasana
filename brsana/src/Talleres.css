@@ -7,7 +7,7 @@
     width: 75dvw;
     height: 620px;
     box-sizing: border-box;
-    margin: 1rem auto;
+    margin: 0 auto;
     padding: 2rem;
     justify-content: space-between;
 }
@@ -79,6 +79,7 @@
 .swiper-slide {
     background-color: transparent;
     height: fit-content;
+    border-radius: 40px;
 }
 
 .swiper-slide:hover {
