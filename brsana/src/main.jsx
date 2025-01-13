@@ -1,18 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import './mediaqueries.css'
 import TalleresSlider from './TalleresSlider'
 import Accordion from './Accordion'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
     <section className="home" id='home'>
-      <div className="img-container">
-        <img src="./src/assets/AdobeStock_340802049.jpeg" alt="Image of a group of people doing yoga" />
-      </div>
-      <div className="hero-left">
         <div className="logo-container">
           <img src="./src/assets/Logotipo 500x500 px.png" alt="logo de brunchasana" />
         </div>
@@ -23,7 +19,6 @@ createRoot(document.getElementById('root')).render(
             <li className="nav-item"><a href="#contactanos" className="nav-link">contactanos</a></li>
           </ul>
         </nav>
-      </div>
     </section>
 
     <section id='equipo'>

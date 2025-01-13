@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1000px) {
+    /* Styles for mobile devices */
+
+    #home {
+        width: 100dvw;
+        display: flex;
+        flex-direction: column;
+        background-position-x: 70%;
+    }
+    .logo-container {
+        width: 90%;
+        max-height: 50%;
+        margin: 0 auto;
+    }
+    .logo-container>img {
+        max-width: 100%;
+        max-height: 100%;
+        aspect-ratio: 1 / 1;
+    }
+    nav {
+        margin-top: 5rem;
+    }
+    .nav-link {
+        font-size: 3.6rem;
+    }
+    .nav-link:hover {
+        font-size: 5rem;
+    }
+
+    .section-title {
+        font-size: 4rem;
+    }
+    .equi-box {
+        flex-direction: column;
+        margin: 1rem auto;
+        gap: 2rem
+    }
+    .eq-img-container{
+        display: flex;
+    }
+    .eq-img-container>img {
+        margin: 0 auto;
+    }
+    .equi-text {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+    .card {
+        width: 90dvw;
+        padding: 1rem;
+        p{
+            margin: 1rem .5rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+    footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+  @media only screen and (min-width: 600px) {
+    /* Styles for tablets */
+  }

@@ -60,3 +60,13 @@
 .faq-link:visited {
     color: green;
 }
+
+@media only screen and (max-width: 768px) {
+    /* Styles for mobile devices */
+    .accordion {
+        width: 90dvw;
+    }
+    .content.show {
+        margin: .4rem auto;
+    }
+}
