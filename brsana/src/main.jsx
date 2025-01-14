@@ -4,6 +4,7 @@ import './index.css'
 import './mediaqueries.css'
 import TalleresSlider from './TalleresSlider'
 import Accordion from './Accordion'
+import ContactForm from './ContactForm'
 
 
 createRoot(document.getElementById('root')).render(
@@ -61,6 +62,9 @@ createRoot(document.getElementById('root')).render(
 
     <section id="contactanos">
     <h1 className="section-title">contactanos</h1>
+
+      < ContactForm />
+
     </section>
 
     <footer>

@@ -1,0 +1,98 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 60dvw;
+    height: 50dvh;
+    margin: 1rem auto;
+    border-radius: 40px;
+    background-color: var(--green-light);
+    padding: 4rem;
+    justify-content: space-between;
+    box-sizing: content-box;
+}
+
+label {
+    margin: 0 2rem;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: var(--blue-dark);
+    display: flex;
+}
+
+input {
+    background-color: var(--green-dark);
+    border-radius: 30px;
+    height: 1.2rem;
+    color: var(--blue-active);
+    padding: 1rem;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    border: 0;
+}
+
+select {
+    margin: 0 4rem;
+    background-color: var(--green-dark);
+    color: var(--blue-active);
+    font-size: 1.4rem;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.op-ds {
+    display: none;
+}
+
+.op-s {
+    background-color: var(--green-light);
+}
+
+textarea {
+    min-height: 8rem;
+    background-color: var(--green-dark);
+    border-radius: 30px;
+    border: 0;
+    padding: 2rem;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: var(--blue-dark);
+    font-size: 1.3rem;
+    resize: none;
+
+}
+
+.form-btn {
+    width: 50%;
+    height: 2.5rem;
+    margin: 1rem auto;
+    padding: 0;
+}
+
+.form-btn:hover {
+    background-color: var(--green-active);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    label {
+        margin: 0 auto;
+        span {
+        display: none;
+    }
+    }
+   
+    input {
+        margin-left: 0;
+    }
+
+    select {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+}
+

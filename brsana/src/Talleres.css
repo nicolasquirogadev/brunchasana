@@ -156,3 +156,11 @@
         height: 2.4rem;
     }
 }
+
+@media only screen and (min-width: 600px) {
+    /* Styles for tablets */
+    .card-text {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+  }

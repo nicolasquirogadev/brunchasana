@@ -12,7 +12,7 @@ function Accordion() {
         return (
             setSelected(null)
         )
-       }
+       };
 
        setSelected(i)
     }
