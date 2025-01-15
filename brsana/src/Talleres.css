@@ -54,7 +54,7 @@
 }
 
 .card-title {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
     margin: .4rem auto;
     text-align: center;
 }
@@ -111,7 +111,7 @@
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
     .ta-card {
         width: 80dvw;
         flex-direction: column;
@@ -119,6 +119,7 @@
     }
     .card-img-container {
         margin: 0 0;
+        height: 50%;
     }
     #ta-img1 {
         display: none;
@@ -157,10 +158,19 @@
     }
 }
 
+
 @media only screen and (min-width: 600px) {
     /* Styles for tablets */
     .card-text {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin: 0;
+    }
+    .card-schedule {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .card-btn {
+        height: 3rem;
+        font-size: 1.1rem
     }
   }
