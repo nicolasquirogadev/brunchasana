@@ -99,6 +99,7 @@ nav {
   color: var(--blue-dark);
   transition: .4s ease;
   -webkit-text-stroke: 1.7px var(--blue-active);
+  text-transform: capitalize;
 }
 .nav-link:hover {
   color: var(--green-dark);
@@ -110,6 +111,7 @@ nav {
   font-size: 9rem;
   text-align: right;
   margin: 0 0;
+  text-transform: capitalize;
 }
 .equi-box {
   display: flex;

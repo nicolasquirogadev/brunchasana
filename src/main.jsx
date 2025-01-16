@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <section className="home" id='home'>
         <div className="logo-container">
-          <img src="brunchasana/src/assets\Logotipo 500x500 px.png" alt="logo de brunchasana" />
+          <img src="\Logotipo 500x500 px.png" alt="logo de brunchasana" />
         </div>
         <nav>
           <ul>
@@ -27,9 +27,9 @@ createRoot(document.getElementById('root')).render(
       <div className="equi-box">
         <div className="equi-container"><p className="equi-text">BRUNCHASANA nace como una forma de acercarse de manera lúdica y recreativa al mundo holístico, a la filosofía del yoga donde encontrar el camino que mejor te resuene a través de lo creativo , de los hábitos saludables, del arte terapéutico y también del encuentro con quienes vibren en tú misma frecuencia. </p></div>
         <div className="equi-container">
-          <div className="eq-img-container one"><img src="brunchasana/src/assets/yoga4.jpeg" alt="" /></div>
-          <div className="eq-img-container two"><img src="brunchasana/src/assets/brunchage.jpeg" alt="" /></div>
-          <div className="eq-img-container thr"><img src="brunchasana/src/assets/yoga3.jpeg" alt="" /></div>
+          <div className="eq-img-container one"><img src="/yoga4.jpeg" alt="" /></div>
+          <div className="eq-img-container two"><img src="/brunchage.jpeg" alt="" /></div>
+          <div className="eq-img-container thr"><img src="/yoga3.jpeg" alt="" /></div>
         </div>
         <div className="equi-container"><p className="equi-text">Soltando cargas emocionales a través del movimiento corporal, fluyendo con pinceladas de acuarelas las emociones enquistadas en tu estructura mental, que provocan estados de ansiedad y agobio. Te esperamos para profundizar en el redescubrir de tu mundo interior y con una mirada amorosa y compasiva hacer los cambios que mejor se adapten a tu crecimiento  personal.</p></div>
       </div>

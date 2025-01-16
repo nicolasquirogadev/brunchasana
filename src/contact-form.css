@@ -69,11 +69,13 @@ textarea {
     height: 2.5rem;
     margin: 1rem auto;
     padding: 0;
+    border: 2px solid transparent;
 }
 
 .form-btn:hover {
     background-color: var(--green-active);
     cursor: pointer;
+    border: 2px solid var(--green-active);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -96,3 +98,15 @@ textarea {
 
 }
 
+@media only screen and (max-width: 500px) {
+
+    .contact-form {
+        padding: 1.5rem;
+        height: fit-content;
+        gap: 1rem;
+    }
+    .form-btn {
+        border: 2px solid var(--green-active);
+    }
+
+}

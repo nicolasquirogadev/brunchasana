@@ -13,6 +13,7 @@
 }
 
 
+
 .ta-card-right {
     display: flex;
     flex-direction: column;
@@ -75,6 +76,9 @@
     cursor: pointer;
 }
 
+.swiper-wrapper {
+    will-change: transform;
+}
 
 .swiper-slide {
     background-color: transparent;
@@ -96,7 +100,7 @@
 }
 
 .swiper-pagination {
-    margin-top: 1rem;
+    margin-top: 2rem;
     position: relative;
     height: auto;
 }
@@ -137,7 +141,7 @@
         aspect-ratio: 12 / 9;
     }
     .ta-card-right {
-        margin: 1rem auto;
+        margin: 1rem 0 auto;
         gap: .65rem;
         
     }
@@ -172,5 +176,31 @@
     .card-btn {
         height: 3rem;
         font-size: 1.1rem
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    .card-img-container {
+        height: 26%;
+    }
+    .card-title {
+        font-size: 1.4rem;
+    }
+    .card-text {
+        font-size: .9rem;
+    }
+    .card-schedule {
+        font-size: .9rem;
+    }
+    .card-btn {
+        height: 2rem;
+    }
+    .ta-card {
+        height: fit-content;
+        padding: 1.3rem;
+    }
+    .swiper-slide {
+        width: 90dvw;
     }
   }

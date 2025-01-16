@@ -9,5 +9,5 @@ export default defineConfig({
       external: [], // Aquí puedes agregar otros módulos si fuera necesario
     },
   },
-  base: '/brunchasana/'
+  base: '/'
 })
