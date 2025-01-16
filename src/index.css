@@ -57,7 +57,7 @@ section {
   display: flex;
   flex-direction: column; 
   margin: 0 0;
-  background-image: url(.\assets\hero3.jpeg);
+  background-image: url(\hero3.jpeg);
   background-position: center;
   background-attachment: local;
   background-size: cover;
