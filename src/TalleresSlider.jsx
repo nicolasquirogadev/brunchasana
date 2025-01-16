@@ -15,7 +15,7 @@ function TalleresSlider() {
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
-        },
+        }
 });
 
     return (
