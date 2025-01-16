@@ -136,6 +136,9 @@ nav {
   object-fit: cover;
   border-radius: 20px;
 }
+.eq-img-container {
+  margin-bottom: 1rem;
+}
 
 .one{
   transform: translateX(20px);
